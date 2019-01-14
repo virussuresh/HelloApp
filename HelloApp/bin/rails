@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby.exe
+APP_PATH = File.expand_path('../config/application', __dir__)
+require_relative '../config/boot'
+require 'rails/commands'
+
+#articles GET    /articles/:id(.:format)  
+        #articles#show
+
+
+#articles GET    /articles/:id(.:format)   
+       #articles#index
+
+#DELETE /articles/:id(.:format)    
+      #articles#destroy
